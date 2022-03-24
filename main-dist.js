@@ -6,7 +6,7 @@ function startCount(e, t) {
         n = setInterval((() => { x >= o && clearInterval(n), x += .5, ui[t].innerHTML = `.statistice>div:nth-of-type(${t+1}) {\n            background-image: conic-gradient(var(--orange) ${x}%, var(--second-color) ${x}%);}` }), 50)
 }
 x = 0, window.onscroll = function() { window.scrollY - 100 >= section.offsetTop && location.href.includes("aboutme0") && (started || sk.forEach(((e, t) => startCount(e, t))), started = !0) }
-    // "https://mhsfh.github.io/cv/" != window.document.URL && "https://mhsfh.github.io/cv" != window.document.URL && "https://mhsfh.github.io/cv/index.html" != window.document.URL || window.location.assign(" https://mhsfh.github.io/cv/#home ");
+"https://mhsfh.github.io/Hi/" != window.document.URL && "https://mhsfh.github.io/Hi" != window.document.URL && "https://mhsfh.github.io/Hi/index.html" != window.document.URL || window.location.assign(" https://mhsfh.github.io/Hi/#home ");
 var form = document.getElementById("my-form");
 async function handleSubmit(e) {
     e.preventDefault();
